@@ -285,9 +285,9 @@ a {
   overflow: initial;
 } */
 
-/* .project-content {
+.project-content {
   padding: 0 1.5rem;
-} */
+}
 
 .image-wrapper {
   width: 100%;
@@ -323,6 +323,7 @@ a {
 .project-stack {
   display: flex;
   margin-bottom: 1.5rem;
+  font-size: 0.5rem;
 }
 
 .project-stack > strong {
@@ -342,6 +343,11 @@ a {
 
 .feedback-data {
   display: flex;
+  align-items: center;
+}
+
+.feedback-img {
+  width: 4.4rem;
 }
 
 .feedback-name {
