@@ -5,131 +5,433 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
 
-    <link rel="stylesheet" href="./css/default.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/default.css " />
+
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="'global-nav">
-        <div class="global-nav-links">
-          <a href="#" class="global-nav-item">About Me</a>
-          <a href="#" class="global-nav-item">Skills</a>
-          <a href="#" class="global-nav-item">Project</a>
-          <a href="#" class="global-nav-item">Feedback</a>
-        </div>
-      </nav>
-      <nav class="local-nav">
-        <div class="local-nav-links">
-          <a href="#" class="title">Dev.yunhee</a>
-          <a href="#">Github</a>
-          <a href="#">Velog</a>
-          <a href="#">YouTube</a>
-        </div>
-      </nav>
+    <div id="background-color">
+      <header class="container">
+        <!-- NAVBAR -->
+        <nav class="global-nav">
+          <div class="global-nav-links">
+            <a href="#scroll-section-about" class="global-nav-item">About Me</a>
+            <a href="#scroll-section-skills" class="global-nav-item">Skills</a>
+            <a href="#scroll-section-project" class="global-nav-item"
+              >Project</a
+            >
+            <a href="#scroll-section-feedback" class="global-nav-item"
+              >Feedback</a
+            >
+          </div>
+        </nav>
+        <nav class="local-nav">
+          <div class="local-nav-links">
+            <a href="#" class="title">Dev.yunhee</a>
+            <a href="https://github.com/unidagit"
+              ><i class="uil uil-github nav-icon"></i
+            ></a>
+            <a href="https://velog.io/@uni"
+              ><i class="uil uil-edit-alt nav-icon"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCgT3rDrqFgCgU759Ssf992A"
+              ><i class="uil uil-youtube nav-icon"></i
+            ></a>
+          </div>
+        </nav>
+      </header>
 
-      <section class="scroll-section" id="scroll-section-introduce">
-        <h1>안녕하세요.</h1>
-        <div class="sticky-elem main-message">
-          <p>프론트엔드 개발자<br />조윤희입니다</p>
+      <!--==================== MESSAGE ====================-->
+      <section class="scroll-section" id="scroll-section-0">
+        <div class="container dynamic">
+          <h2 id="dynamic"></h2>
         </div>
-        <div class="sticky-elem main-message">
-          <p>디자인과 기획 관점을 <br />갖춘 개발자</p>
+        <div class="sticky-elem main-message a">
+          <p>디자인과 기획 관점을 <br />갖춘 개발자입니다</p>
         </div>
-        <div class="sticky-elem main-message">
+        <div class="sticky-elem main-message b">
           <p>정보를 공유하는<br />즐거움을 추구합니다</p>
         </div>
-        <div class="sticky-elem main-message">
-          <p>끝까지 해결해나가는<br />끈기</p>
+        <div class="sticky-elem main-message c">
+          <p>도전을 대하는 집요함과 끈기로 <br />언제나 성취합니다</p>
+        </div>
+        <div class="sticky-elem main-message d">
+          <p>프론트엔드 개발자<br />조윤희입니다</p>
+        </div>
+
+        <div class="home-scroll">
+          <a
+            href="#scroll-section-about"
+            class="home-scroll-button button-flex"
+          >
+            <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+            <span class="home-scroll-name">스크롤을 내려보세요</span>
+          </a>
         </div>
       </section>
 
       <section class="scroll-section" id="scroll-section-about">
-        <p class="description">
-          <strong>About Me</strong>
-          지난 4년 간의 편집 디자인 경력에서, 수만 명의 독자들이 '어떤
-          레이아웃'에 몰입하는지 배웠습니다. 그 노하우를 개발에 투영하여 사용자
-          경험에 특화된 개발자 입니다. 또한, 기획자, 사진작가, 클라이언트와
-          끊임없는 소통을 하며 프로젝트를 진행해왔습니다. 원활한 소통에 자신이
-          있으며 기획자, 디자인 관점을 잘 인지하고 있습니다. 사지마켓
-          팀프로젝트에서 디자인 총괄을 맡아 피그마 커스터마이징 작업과 썸네일
-          디자인을 담당했습니다. 코딩 웹 캐릭터 경진대회에서 우수상을 수상한
-          경험도 있습니다. 이러한 디자인 능력으로 사용자에게 데이터를 시각적으로
-          예쁘게 표현하여 긍정적인 영향을 줄수있습니다.
-        </p>
+        <div class="scroll-section-container">
+          <h2 class="section-title" id="about">About Me</h2>
+          <div class="about-container container grid">
+            <img
+              src="./assets/img/uni.png"
+              alt="프로필사진"
+              class="about-img"
+            />
+            <div class="about-data">
+              <p class="about-description">
+                제 장점은 크게 구분하면 세 가지입니다.<br />
+                ①디자이너의 관점 ②기획자에 대한 이해 ③이를 개발에 투영할 수 있는
+                개발력. 저는 지난 4년 간의 편집 디자인 경력을 통해 수많은
+                독자들이 ‘어떤 레이아웃’에 더 잘 몰입하는지, 또 어떻게 구성하고
+                어떻게 표현해야 일시적 즐거움을 장기적 취향으로 치환하는지를
+                배웠습니다. 저는 그 노하우를 개발에 투영하여 사용자 경험을
+                극대화시키는 데 특화된 개발자입니다. 기능, 기획, 디자인 이
+                삼박자가 조화롭게 되었을 때 모두가 만족하는 결과물과 사용자에게
+                좋은 경험을 선사할 것 입니다. 이를 조화롭게 융화시키기 위해서는
+                세 가지의 관점과 이해를 모두 갖추고 있는 저와 같은 개발자가
+                필요하다고 당당히 자부합니다.
+              </p>
+              <div class="about-buttons">
+                <a href="assets/pdf/yunhee-cv.pdf" class="button button-flex">
+                  Download CV<i class="uil uil-file-download button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <!--==================== SKILLS ====================-->
       <section class="scroll-section" id="scroll-section-skills">
-        <p class="description">
-          <strong>Skills</strong>
-        </p>
-        <ul>
-          <li class="skills-list">
-            Front-end
-            <span class="skills-name">React, JavaScript, HTML/CSS</span>
-          </li>
-          <li class="skills-list">
-            Design
-            <span class="skills-name">
-              Photoshop, Illustrator, InDesign, Figma</span
-            >
-          </li>
-          <li class="skills-list">
-            Collaboration
-            <span class="skills-name">Git, Notion</span>
-          </li>
-        </ul>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="container">
+          <div class="skills-container">
+            <!--==================== SKILLS1 ====================-->
+            <div class="skills-content">
+              <div>
+                <i class="uil uil-arrow skills-icon"></i>
+                <h3 class="skills-title">Frontend</h3>
+              </div>
+
+              <div class="skills-modal">
+                <div class="skills-modal-content">
+                  <ul class="skills-modal-list">
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/react.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/javascript.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/html.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/css.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/styled-components.png"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS2 ====================-->
+            <div class="skills-content">
+              <div>
+                <i class="uil uil-brush-alt skills-icon"></i>
+                <h3 class="skills-title">Design</h3>
+              </div>
+
+              <div class="skills-modal">
+                <div class="skills-modal-content">
+                  <ul class="skills-modal-list">
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/figma.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/illustrator.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/photoshop.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/indesign.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS3 ====================-->
+            <div class="skills-content">
+              <div>
+                <i class="uil uil-users-alt skills-icon"></i>
+                <h3 class="skills-title">Collaboration</h3>
+              </div>
+
+              <div class="skills-modal">
+                <div class="skills-modal-content">
+                  <ul class="skills-modal-list">
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/git-icon-logo.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                    <li class="skills-item">
+                      <img
+                        src="./assets/img/notion.svg"
+                        class="skills-modal-icon"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <!--==================== PROJECT ====================-->
+      <section class="scroll-section" id="scroll-section-project">
+        <h2 class="section-title">Project</h2>
+
+        <div class="container">
+          <div class="project-container">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="project-content">
+              <img src="./assets/img/sagima.jpg" alt="" class="project-img" />
+
+              <div>
+                <h3 class="project-title">사지마켓</h3>
+                <p class="project-description">
+                  사지마켓은 전국의 지자체 유기동물 보호센터와 연계하여 운영되는
+                  유기묘 무료 분양 플랫폼입니다. 입양된 냥이들의 귀여운 일상
+                  모습을 자랑하는 SNS 기능을 가지고 있습니다.총 4명의 팀원들과
+                  협업하여 개발했습니다.
+                </p>
+                <ul class="project-stack">
+                  <strong> 기술 </strong>
+                  <li>React</li>
+                  <li>React-router</li>
+                  <li>Hooks</li>
+                  <li>Styled-components</li>
+                </ul>
+                <a
+                  href="https://dont-buyma-cat.web.app/"
+                  class="button project-button"
+                >
+                  Web
+                  <i class="uil uil-arrow-right button-flex"></i>
+                </a>
+                <a
+                  href="https://github.com/unidagit/don-t-buy-macat"
+                  class="button project-button"
+                >
+                  Github
+                  <i class="uil uil-arrow-right button-flex"></i>
+                </a>
+                <a
+                  href="https://don-t-buy-macat.tistory.com/"
+                  class="button project-button"
+                >
+                  팀 기술블로그
+                  <i class="uil uil-arrow-right button-flex"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="project-content">
+              <div class="image-wrapper">
+                <img
+                  src="./assets/img/vending.jpg"
+                  alt=""
+                  class="project-img"
+                />
+              </div>
+
+              <div>
+                <h3 class="project-title">Vending Mashine</h3>
+                <p class="project-description">
+                  피그마 디자인을 토대로 HTML 마크업과 CSS로 반응형 웹페이지를
+                  제작하였습니다.
+                </p>
+                <ul class="project-stack">
+                  <strong> 기술 </strong>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+                <a href="#" class="button project-button">
+                  Demo
+                  <i class="uil uil-arrow-right button-flex"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="project-content">
+              <img
+                src="./assets/img/portfolio.jpg"
+                alt=""
+                class="project-img"
+              />
+
+              <div>
+                <h3 class="project-title">Portfolio</h3>
+                <p class="project-description">
+                  자바스크립트로 스크롤 동작을 주어 인터렉티브한 포트폴리오
+                  웹사이트를 만들었습니다.
+                </p>
+                <a href="#" class="button project-button">
+                  Demo
+                  <i class="uil uil-arrow-right button-icon button-flex"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FeedBack ====================-->
       <section class="scroll-section" id="scroll-section-feedback">
-        <div class="sticky-elem main-message a">
-          <p>
-            <small>Feedback</small>
-            이러한 경험을 했습니다
-          </p>
-        </div>
-        <div class="sticky-elem desc-message b">
-          <p>
-            코딩 웹 캐릭터 경진대회에서 우수상을 수상한 경험도 있습니다. 이러한
-            디자인 능력으로 사용자에게 데이터를 시각적으로 예쁘게 표현하여
-            긍정적인 영향을 줄수있습니다.
-          </p>
-          <div class="pin"></div>
-        </div>
-        <div class="sticky-elem desc-message c">
-          <p>디자인 앤 퀄리티 오브 스웨덴,<br />메이드 인 차이나</p>
-          <div class="pin"></div>
+        <div class="container">
+          <h2 class="section-title">FeedBack</h2>
+
+          <div class="feedback-container swiper">
+            <div class="swiper-wrapper grid">
+              <!--==================== FeedBack 1 ====================-->
+              <div class="feedback-content swiper-slide">
+                <div class="feedback-data">
+                  <img src="./assets/img/uni.png" alt="" class="feedback-img" />
+
+                  <div>
+                    <h3 class="feedback-name">최수빈</h3>
+                    <span class="feedback-client">사지마켓 프로젝트 팀원</span>
+                  </div>
+                </div>
+                <p class="feedback-description">
+                  디자인을 총괄하셔서 피그마를 통해 원활하게 작업할 수 있도록
+                  도움을 주셨습니다. 또한 어려운 점도 함께 공유해서
+                  해결해나가려고 하는 노력을 하고 계시고, 팀내에서 긍정적인
+                  커뮤니케이션을 많이 해주셔서 힘이 많이 됩니다!
+                </p>
+              </div>
+
+              <!--==================== FeedBack 2 ====================-->
+              <div class="feedback-content swiper-slide">
+                <div class="feedback-data">
+                  <img src="./assets/img/uni.png" alt="" class="feedback-img" />
+
+                  <div>
+                    <h3 class="feedback-name">허지현</h3>
+                    <span class="feedback-client">사지마켓 프로젝트 팀원</span>
+                  </div>
+                </div>
+                <p class="feedback-description">
+                  디자인일을 하셔서 그런지 그 전까지는 한번도 다뤄본적이
+                  없으셨음에도 불구하고 피그마를 사용해서 전체 프로젝트의
+                  색감이나 디자인을 잡아주셨습니다. 그 외에도 경험을 살려
+                  UX부분에서도 두각을 나타낼 수 있을 것 같고 지금 이순간까지
+                  자꾸 부족한점이 보인다며 무한수정을 하고계시는데 이런 섬세함이
+                  강점입니다. 또 아무래도 첫 프로젝트이다보니 답답한 순간이
+                  많았는데 포기하지 않고 어떻게든 물어보고 해결하는 모습이 정말
+                  멋있었습니다.
+                </p>
+              </div>
+
+              <!--==================== FeedBack 3 ====================-->
+              <div class="feedback-content swiper-slide">
+                <div class="feedback-data">
+                  <img src="./assets/img/uni.png" alt="" class="feedback-img" />
+
+                  <div>
+                    <h3 class="feedback-name">김시아</h3>
+                    <span class="feedback-client">사지마켓 프로젝트 팀원</span>
+                  </div>
+                </div>
+                <p class="feedback-description">
+                  동료들과 많은 문제를 나누고 함께 해결하려는 분위기를
+                  만들어주십니다. 덕분에 저도 솔직하게 공유하고 물어보는데에
+                  주저함이 없어졌습니다!!
+                </p>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination swiper-pagination-feedback"></div>
+          </div>
         </div>
       </section>
 
-      <section class="scroll-section" id="scroll-section-3">
-        <p class="mid-message">
-          <strong>Retina 머그</strong><br />
-          아이디어를 광활하게 펼칠<br />
-          아름답고 부드러운 음료 공간.
-        </p>
-        <!-- <canvas class="image-blend-canvas" width="1920" height="1080"></canvas> -->
-        <p class="canvas-caption">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at
-          fuga quae perspiciatis veniam impedit et, ratione est optio porro.
-          Incidunt aperiam nemo voluptas odit quisquam harum in mollitia.
-          Incidunt minima iusto in corporis, dolores velit. Autem, sit dolorum
-          inventore a rerum distinctio vero illo magni possimus temporibus
-          dolores neque adipisci, repudiandae repellat. Ducimus accusamus
-          similique quas earum laborum. Autem tempora repellendus asperiores
-          illum ex! Velit ea corporis odit? Ea, incidunt delectus. Sapiente
-          rerum neque error deleniti quis, et, quibusdam, est autem voluptate
-          rem voluptas. Ratione soluta similique harum nihil vel. Quas inventore
-          perferendis iusto explicabo animi eos ratione obcaecati.
-        </p>
-      </section>
-      <footer class="footer">조윤희 프론트엔드 개발자</footer>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer" id="scroll-section-footer">
+        <div class="footer-background">
+          <div class="footer-container">
+            <div>
+              <h3 class="footer-title">Joyunhee</h3>
+              <span class="footer-subtitle"> Frontend developer </span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script src="js/main.js"></script>
+    <!--==================== FEEDBACK SWIPER JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--==================== TYPING ====================-->
+    <script src="./assets/js/typing.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
