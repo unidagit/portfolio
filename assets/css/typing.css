@@ -2,18 +2,18 @@
   width: 100%;
   height: 4475px;
   top: 96px;
-  background: #6190e8; /* fallback for old browsers */
+  background: #783bfd; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
     #ffffff,
     #a7bfe8,
-    #6190e8
+    #783bfd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
     #ffffff,
     #a7bfe8,
-    #6190e8
+    #783bfd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

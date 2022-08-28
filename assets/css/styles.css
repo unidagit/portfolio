@@ -2,9 +2,10 @@
 :root {
   --black-color: rgb(29, 29, 31);
   --gray-color: #888;
-  --button-color: #6190e8;
-  --button-color-hover: #79a7fd;
+  --button-color: #783bfd;
+  --button-color-hover: #925fff;
   --white-color: #fff;
+  --point-color: #783bfd;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2.5rem;
