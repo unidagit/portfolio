@@ -30,7 +30,7 @@ a {
   font-size: var(--big-font-size);
   font-weight: var(--font-bold);
   color: var(--black-color);
-  margin-bottom: 30px;
+  margin-bottom: 5rem;
 }
 
 .section-title,
@@ -134,16 +134,32 @@ a {
 }
 
 /*==================== BUTTONS ====================*/
+.big-button {
+  display: inline-block;
+  color: var(--button-color);
+  padding: 1rem;
+  border-radius: 6rem;
+  border: 1.2px solid var(--button-color);
+  font-size: var(--h3-font-size);
+}
+
+.big-button:hover {
+  color: var(--white-color);
+  background-color: var(--button-color);
+}
+
 .button {
   display: inline-block;
-  background-color: var(--button-color);
-  color: var(--white-color);
-  padding: 1rem;
-  border-radius: 0.5rem;
+  color: var(--button-color);
+  padding: 0.8rem;
+  border-radius: 6rem;
+  border: 1.2px solid var(--button-color);
+  font-size: var(--small-font-size);
 }
 
 .button:hover {
-  background-color: var(--button-color-hover);
+  color: var(--white-color);
+  background-color: var(--button-color);
 }
 
 .button-flex {
@@ -205,7 +221,12 @@ a {
 
 .about-data {
   color: var(--gray-color);
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+.about-description > strong {
+  font-weight: var(--font-semi-bold);
+  color: var(--button-color);
 }
 
 .about-description {
@@ -287,6 +308,7 @@ a {
 
 .project-content {
   padding: 0 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .image-wrapper {
@@ -308,12 +330,10 @@ a {
   border-radius: 0.5rem;
   object-fit: cover;
   margin-bottom: 20px;
-
-  /* justify-self: center; */
 }
 
 .project-button {
-  margin-bottom: 4rem;
+  margin-right: 0.5rem;
 }
 
 .project-button:hover .button-flex {
@@ -405,11 +425,18 @@ a {
     font-size: 4vw;
   }
 
+  /*==================== ABOUT ====================*/
+  .about-description {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
   /*==================== PORTFOLIO ====================*/
   .project-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-bottom: 4rem;
   }
 
   .project-img {
@@ -423,6 +450,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-bottom: 4rem;
   }
 
   .project-img {
