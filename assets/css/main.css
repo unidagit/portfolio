@@ -1,14 +1,8 @@
 @charset 'utf-8';
 
-html {
-  font-family: "Noto Sans KR", sans-serif;
-  font-size: 14px;
-}
-
 body {
   overflow-x: hidden;
   color: var(--black-color);
-  /* letter-spacing: -0.05em; */
   background: white;
 }
 
@@ -105,12 +99,6 @@ a {
 .scroll-section {
   padding-top: 50vh;
 }
-
-/* #scroll-section-0 h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: var(--font-bold);
-} */
 
 .home-scroll {
   margin-top: 2em;
@@ -255,11 +243,9 @@ a {
 
 .skills-content {
   position: relative;
-  /* padding: 3.5rem 0.5rem 1.25rem 1.5rem; */
   padding: 1rem;
   border-radius: 0.25rem;
   text-align: center;
-  /* border: solid 1px var(--gray-color); */
   box-shadow: 0 4px 8px rgba(65, 64, 64, 0.1);
 }
 
@@ -279,14 +265,14 @@ a {
   margin-bottom: 0.2rem;
 }
 
-.skills-modal-list {
+.skills-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.8rem;
   text-align: center;
 }
 
-.skills-modal-icon {
+.skills-image {
   width: 3rem;
   height: 3rem;
 }
@@ -298,13 +284,6 @@ a {
 }
 
 /*==================== PROJECT ====================*/
-
-/* .project-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: initial;
-} */
 
 .project-content {
   padding: 0 1.5rem;
@@ -397,7 +376,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 10rem;
-  background-color: var(--black-color);
+  background-color: var(--button-color);
   text-align: center;
   color: var(--white-color);
 }
