@@ -1,0 +1,60 @@
+.project-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(71, 71, 71, 0.452); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.project-modal-content {
+  position: relative;
+  background-color: var(--white-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.project-modal-list {
+  row-gap: 1rem;
+}
+
+.project-modal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-modal-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1.5rem;
+}
+
+.project-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: var(--gray-color);
+  cursor: pointer;
+}
+
+.project-modal-icon {
+  color: var(--button-color);
+  margin-right: 0.5rem;
+}
+
+/*Active Modal*/
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.87);
+}
