@@ -333,6 +333,7 @@ a {
 }
 
 .project-button {
+  cursor: pointer;
   margin-right: 0.5rem;
 }
 
