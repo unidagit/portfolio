@@ -4,6 +4,7 @@ html {
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1.2;
   word-wrap: break-word;
+  font-size: 14px;
 }
 body {
   -webkit-font-smoothing: antialiased;
