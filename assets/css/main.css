@@ -313,7 +313,7 @@ a {
 
 .project-button {
   cursor: pointer;
-  margin-right: 0.5rem;
+  margin: 0 0.5rem 0.5rem 0;
 }
 
 .project-button:hover .button-flex {
@@ -435,5 +435,20 @@ a {
 
   .project-img {
     margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .skills-title {
+    font-size: 0.5rem;
+  }
+
+  .skills-list {
+    gap: 0.4rem;
+  }
+
+  .skills-image {
+    width: 2rem;
+    height: 2rem;
   }
 }
