@@ -1,4 +1,4 @@
-const circle = document.querySelector(".circle");
+const mouse = document.querySelector(".mouse");
 
 document.addEventListener("mousemove", (e) => {
   // mousemove이벤트를 이용해 움
@@ -11,7 +11,7 @@ document.addEventListener("mousemove", (e) => {
 
   const mouseY = e.clientY;
 
-  circle.style.left = mouseX + "px";
+  mouse.style.left = mouseX + "px";
 
-  circle.style.top = mouseY + "px";
+  mouse.style.top = mouseY + "px";
 });
