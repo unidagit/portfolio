@@ -8,7 +8,7 @@
 
 ## 배포 URL
 
-- URL: https://unidagit.github.io/portfolio/
+- URL: https://portfolio-iota-orcin-15.vercel.app/
   <br>
 
 <br>
